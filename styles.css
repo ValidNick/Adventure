@@ -1,0 +1,264 @@
+/* page 1: introduction  */
+.gamehead {
+  width: 100vw;
+  text-align: center;
+}
+
+.font{
+    font-family: 'Titan One', cursive;
+}
+
+  span {
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: #000;
+    font-size: 100px;
+    text-shadow: 0 0px #f3c623, 0 0px #f2aaaa;
+    transform: translate(0, 100%) rotate(4deg);
+    animation: jump 2s ease-in-out infinite;
+    display: inline-block;
+    font-family: "Titan One", cursive;
+    color: #fff;
+}
+    
+@keyframes jump {
+  33% {
+    text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+  }
+  50% {
+    transform: translate(0, 0) rotate(-4deg);
+    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+  }
+  66.67% {
+    text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+  }
+}
+html {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: inline;
+  overflow: hidden;
+  background: #FAD02C;
+}
+
+.animation {
+    border:solid 1px red;
+	margin:200px 600px 0px 600px; 
+	width: 100px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    
+}
+
+
+/* page 2 */
+.page2{
+    display:none;
+}
+
+.info {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+}
+
+.imgadj {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+}
+
+.buttonfix {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.yes{
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+}
+
+.no {
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+}
+
+/* Page 3 */
+
+.page3 {
+    display: none;
+}
+
+.info2 {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+}
+
+.back {
+    display:none;
+    background-color: #FF0000;
+    color: white;
+}
+
+.map {
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    border: solid #FC2E20 2px;
+}
+
+.button-layout {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.swamp {
+     background-color: #FF0000;
+    color: white;
+     font-size: 15px;
+}
+
+.desert {
+     background-color: #FF0000;
+    color: white;
+     font-size: 15px;
+}
+
+.capital {
+     background-color: #FF0000;
+    color: white;
+     font-size: 15px;
+}
+
+.swampinfo {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+    display: none;
+     font-size: 15px;
+}
+
+.desertinfo {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+    display: none;
+     font-size: 15px;
+}
+
+.capitalinfo {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+    display: none;
+     font-size: 15px;
+}
+
+.options {
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.option1 {
+ background-color: #FF0000;
+    color: white;
+     font-size: 15px;
+}
+
+.option2 {
+     background-color: #FF0000;
+    color: white;
+     font-size: 15px;
+}
+
+.option3 {
+     background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+/* Page 4 */
+
+.page4 {
+    display:none;
+}
+
+.p4info {
+    font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+     font-size: 15px;
+}
+
+.monster {
+  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.apple {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+    
+}
+
+.page4p2 {
+    display:none;
+}
+
+.final {
+    
+   font-family: 'Titan One', cursive;
+    color: #FC2E20;
+    padding: 10px;
+     font-size: 15px;
+}
+
+.finish {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.finalpage {
+display:none;
+}
+
+.restart {
+    display: block;
+    margin-left: 10px;
+    margin-left: 10px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+}
+    
